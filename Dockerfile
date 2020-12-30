@@ -1,4 +1,4 @@
-FROM pdouble16/bitbucket-pipeline-browsers
+FROM pdouble16/bitbucket-pipeline-browsers:1.3_53.0.3_58_2.1.1
 MAINTAINER "Thomas Kugi <thomas.kugi@syon.at>"
 
 ENV NVM_DIR /usr/local/nvm
