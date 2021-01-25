@@ -8,7 +8,7 @@ ARG SOURCE_TYPE
 
 ENV DEBIAN_FRONTEND=noninteractive LANG=en_US.UTF-8 LC_ALL=C.UTF-8 LANGUAGE=en_US.UTF-8 TERM=dumb DBUS_SESSION_BUS_ADDRESS=/dev/null \
     JAVA_HOME=/usr/lib/jvm/java-8-oracle \
-    FIREFOX_VERSION=59.0.2 PHANTOMJS_VERSION=2.1.1 CHROME_VERSION=stable_current \
+    FIREFOX_VERSION=78.6.1esr PHANTOMJS_VERSION=2.1.1 CHROME_VERSION=stable_current \
     SCREEN_WIDTH=1920 SCREEN_HEIGHT=1080 SCREEN_DEPTH=24
 
 RUN rm -rf /var/lib/apt/lists/* && apt-get -q update &&\
